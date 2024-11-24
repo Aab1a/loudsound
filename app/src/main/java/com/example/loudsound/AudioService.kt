@@ -95,7 +95,7 @@ class AudioService : Service() {
         try {
             val musicFile = File(
                 Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
-                "early_riser.mp3"
+                "test.mp3"
             )
             if (musicFile.exists()) {
                 mediaPlayer = MediaPlayer().apply {
